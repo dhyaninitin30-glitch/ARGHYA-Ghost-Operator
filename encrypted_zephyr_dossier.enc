@@ -1,0 +1,17 @@
+{
+  "format": "ARGHYA-ZEPHYR-2",
+  "narrative": "The closing balance speaks first. The carrier's checksum comes next. Authenticate the escrow identity after that. The orbit's arrival closes the sequence.",
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "kdf": "scrypt",
+    "N": 32768,
+    "r": 8,
+    "p": 1,
+    "dklen": 32,
+    "salt_hex": "da3970766f290339ca0001717a48aff1",
+    "nonce_hex": "687e8cb003491c6f02f56010",
+    "aad_utf8": "ZEPHYR-HEADER-v2",
+    "ciphertext_and_tag_base64": "184L8S52m/U92WjMrAderzxd5MuInQHO83CLebUcKMyDSt1PeYJIur3ozDdmEjrzFGI2lmJcWOOw2/lj7vvRmKVlXTB996thrMu0Jh1mTRneRfYgPRXw849Sk2lzgwTRGN16skgCQg=="
+  },
+  "component_contract": "Each component is exactly 8 unpadded Base32 characters; join with literal | in the order inferred from the narrative."
+}

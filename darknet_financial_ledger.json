@@ -1,0 +1,126 @@
+{
+  "hashing": {
+    "algorithm": "SHA-256",
+    "serialization": "UTF-8 canonical JSON; sorted keys; separators(',',':'); tx_hash field omitted when hashing"
+  },
+  "account_id": "ACCT-ORBIT-204",
+  "memo_id": "MEMO-ZEPHYR-17",
+  "opening_balance": 1000,
+  "branches": {
+    "branch_amber": [
+      {
+        "branch_id": "branch_amber",
+        "seq": 0,
+        "account_id": "ACCT-ORBIT-204",
+        "memo_id": "MEMO-ZEPHYR-17",
+        "amount": 250,
+        "balance_before": 1000,
+        "balance_after": 1250,
+        "prev_hash": "GENESIS",
+        "signer_id": "LEAF-ESCROW-07",
+        "tx_hash": "8c72144ff56894ac6857d6d148a4ac8e144629d0655e1469df0907f808eeff74"
+      },
+      {
+        "branch_id": "branch_amber",
+        "seq": 1,
+        "account_id": "ACCT-ORBIT-204",
+        "memo_id": "MEMO-ZEPHYR-17",
+        "amount": -50,
+        "balance_before": 1250,
+        "balance_after": 1200,
+        "prev_hash": "8c72144ff56894ac6857d6d148a4ac8e144629d0655e1469df0907f808eeff74",
+        "signer_id": "LEAF-ESCROW-07",
+        "tx_hash": "79f9b5362c8a388f5717281c64b19445ecc8eedebc9dfe110e0ce9b69a9236ca"
+      },
+      {
+        "branch_id": "branch_amber",
+        "seq": 2,
+        "account_id": "ACCT-ORBIT-204",
+        "memo_id": "MEMO-ZEPHYR-17",
+        "amount": 125,
+        "balance_before": 1200,
+        "balance_after": 1325,
+        "prev_hash": "79f9b5362c8a388f5717281c64b19445ecc8eedebc9dfe110e0ce9b69a9236ca",
+        "signer_id": "LEAF-ESCROW-07",
+        "tx_hash": "a397d01db27aa689e9bba5b8c17e1e971de72e5ce5ff988fba9982be2ca8dc31"
+      }
+    ],
+    "branch_cobalt": [
+      {
+        "branch_id": "branch_cobalt",
+        "seq": 0,
+        "account_id": "ACCT-ORBIT-204",
+        "memo_id": "MEMO-ZEPHYR-17",
+        "amount": 250,
+        "balance_before": 1000,
+        "balance_after": 1250,
+        "prev_hash": "GENESIS",
+        "signer_id": "LEAF-ESCROW-07",
+        "tx_hash": "c63b442cfcfe709908abd5ac6c2ab2fa7b870d8e7f2be7a8e59afaca3eda1d25"
+      },
+      {
+        "branch_id": "branch_cobalt",
+        "seq": 1,
+        "account_id": "ACCT-ORBIT-204",
+        "memo_id": "MEMO-ZEPHYR-17",
+        "amount": -50,
+        "balance_before": 1250,
+        "balance_after": 1200,
+        "prev_hash": "c63b442cfcfe709908abd5ac6c2ab2fa7b870d8e7f2be7a8e59afaca3eda1d25",
+        "signer_id": "LEAF-ESCROW-07",
+        "tx_hash": "000836b25b64c760aa2328c3fcd0e72b36bb331d5d2c692cf10e7c73922a4eb9"
+      },
+      {
+        "branch_id": "branch_cobalt",
+        "seq": 2,
+        "account_id": "ACCT-ORBIT-204",
+        "memo_id": "MEMO-ZEPHYR-17",
+        "amount": 125,
+        "balance_before": 1200,
+        "balance_after": 1325,
+        "prev_hash": "000836b25b64c760aa2328c3fcd0e72b36bb331d5d2c692cf10e7c73922a4eb9",
+        "signer_id": "LEAF-ESCROW-07",
+        "tx_hash": "95cdbc6ccf507ac42716d0331f8a6d019565ec00bbffcac798971538649adca3"
+      }
+    ],
+    "branch_silver": [
+      {
+        "branch_id": "branch_silver",
+        "seq": 0,
+        "account_id": "ACCT-ORBIT-204",
+        "memo_id": "MEMO-ZEPHYR-17",
+        "amount": 250,
+        "balance_before": 1000,
+        "balance_after": 1250,
+        "prev_hash": "GENESIS",
+        "signer_id": "LEAF-ESCROW-07",
+        "tx_hash": "3e7b5bee61026ca4fbbdabe34a629ae08930a5e8561120dddc21aff5ea75788f"
+      },
+      {
+        "branch_id": "branch_silver",
+        "seq": 1,
+        "account_id": "ACCT-ORBIT-204",
+        "memo_id": "MEMO-ZEPHYR-17",
+        "amount": -50,
+        "balance_before": 1250,
+        "balance_after": 1217,
+        "prev_hash": "3e7b5bee61026ca4fbbdabe34a629ae08930a5e8561120dddc21aff5ea75788f",
+        "signer_id": "LEAF-ESCROW-07",
+        "tx_hash": "3ade6530c60b5644e6bf55fcd8753456c734cd56b064a7ae5eedd16e6f175fed"
+      },
+      {
+        "branch_id": "branch_silver",
+        "seq": 2,
+        "account_id": "ACCT-ORBIT-204",
+        "memo_id": "MEMO-ZEPHYR-17",
+        "amount": 125,
+        "balance_before": 1217,
+        "balance_after": 1342,
+        "prev_hash": "3ade6530c60b5644e6bf55fcd8753456c734cd56b064a7ae5eedd16e6f175fed",
+        "signer_id": "LEAF-ESCROW-07",
+        "tx_hash": "28f54bf4704e3a1bf1234049f7d66e377800832c4b9275520c59616522a9ae11"
+      }
+    ]
+  },
+  "component_rule": "C3 = first 8 unpadded Base32 characters of raw SHA-256 digest of final tx_hash hex decoded to bytes on the uniquely valid branch."
+}

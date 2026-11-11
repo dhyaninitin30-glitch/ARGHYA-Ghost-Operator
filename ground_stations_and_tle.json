@@ -1,0 +1,1519 @@
+{
+  "notice": "Synthetic pass-reconciliation exercise; these are not real TLEs and do not support SGP4 propagation.",
+  "time_standard": "UTC ISO-8601 Z",
+  "selection_rules": {
+    "exact_tca_match": true,
+    "station_must_match": "NORTH-01",
+    "min_elevation_deg": 20,
+    "tle_epoch_max_age_hours": 24
+  },
+  "stations": [
+    {
+      "station_id": "NORTH-01",
+      "latitude_deg": -55.0,
+      "longitude_deg": -140.0
+    },
+    {
+      "station_id": "EAST-02",
+      "latitude_deg": -30.0,
+      "longitude_deg": -75.0
+    },
+    {
+      "station_id": "SOUTH-03",
+      "latitude_deg": -5.0,
+      "longitude_deg": -10.0
+    },
+    {
+      "station_id": "WEST-04",
+      "latitude_deg": 20.0,
+      "longitude_deg": 55.0
+    },
+    {
+      "station_id": "ISLAND-05",
+      "latitude_deg": 45.0,
+      "longitude_deg": 120.0
+    }
+  ],
+  "pass_records": [
+    {
+      "norad_id": 70000,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:00:00Z",
+      "tca_utc": "2026-10-19T10:06:00Z",
+      "max_elevation_deg": 8,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-000"
+    },
+    {
+      "norad_id": 70001,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:07:00Z",
+      "tca_utc": "2026-10-19T10:13:00Z",
+      "max_elevation_deg": 21,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-001"
+    },
+    {
+      "norad_id": 70002,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:14:00Z",
+      "tca_utc": "2026-10-19T10:20:00Z",
+      "max_elevation_deg": 34,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-002"
+    },
+    {
+      "norad_id": 70003,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:21:00Z",
+      "tca_utc": "2026-10-19T10:27:00Z",
+      "max_elevation_deg": 47,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-003"
+    },
+    {
+      "norad_id": 70004,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:28:00Z",
+      "tca_utc": "2026-10-19T10:34:00Z",
+      "max_elevation_deg": 60,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-004"
+    },
+    {
+      "norad_id": 70005,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:35:00Z",
+      "tca_utc": "2026-10-19T10:41:00Z",
+      "max_elevation_deg": 73,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-005"
+    },
+    {
+      "norad_id": 70006,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:42:00Z",
+      "tca_utc": "2026-10-19T10:48:00Z",
+      "max_elevation_deg": 16,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-006"
+    },
+    {
+      "norad_id": 70007,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:49:00Z",
+      "tca_utc": "2026-10-19T10:55:00Z",
+      "max_elevation_deg": 29,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-007"
+    },
+    {
+      "norad_id": 70008,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:56:00Z",
+      "tca_utc": "2026-10-19T10:02:00Z",
+      "max_elevation_deg": 42,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-008"
+    },
+    {
+      "norad_id": 70009,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:03:00Z",
+      "tca_utc": "2026-10-19T10:09:00Z",
+      "max_elevation_deg": 55,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-009"
+    },
+    {
+      "norad_id": 70010,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:10:00Z",
+      "tca_utc": "2026-10-19T10:16:00Z",
+      "max_elevation_deg": 68,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-010"
+    },
+    {
+      "norad_id": 70011,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:17:00Z",
+      "tca_utc": "2026-10-19T10:23:00Z",
+      "max_elevation_deg": 11,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-011"
+    },
+    {
+      "norad_id": 70012,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:24:00Z",
+      "tca_utc": "2026-10-19T10:30:00Z",
+      "max_elevation_deg": 24,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-012"
+    },
+    {
+      "norad_id": 70013,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:31:00Z",
+      "tca_utc": "2026-10-19T10:37:00Z",
+      "max_elevation_deg": 37,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-013"
+    },
+    {
+      "norad_id": 70014,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:38:00Z",
+      "tca_utc": "2026-10-19T10:44:00Z",
+      "max_elevation_deg": 50,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-014"
+    },
+    {
+      "norad_id": 70015,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:45:00Z",
+      "tca_utc": "2026-10-19T10:51:00Z",
+      "max_elevation_deg": 63,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-015"
+    },
+    {
+      "norad_id": 70016,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:52:00Z",
+      "tca_utc": "2026-10-19T10:58:00Z",
+      "max_elevation_deg": 76,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-016"
+    },
+    {
+      "norad_id": 70017,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:59:00Z",
+      "tca_utc": "2026-10-19T10:05:00Z",
+      "max_elevation_deg": 19,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-017"
+    },
+    {
+      "norad_id": 70018,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:06:00Z",
+      "tca_utc": "2026-10-19T10:12:00Z",
+      "max_elevation_deg": 32,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-018"
+    },
+    {
+      "norad_id": 70019,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:13:00Z",
+      "tca_utc": "2026-10-19T10:19:00Z",
+      "max_elevation_deg": 45,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-019"
+    },
+    {
+      "norad_id": 70020,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:20:00Z",
+      "tca_utc": "2026-10-19T10:26:00Z",
+      "max_elevation_deg": 58,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-020"
+    },
+    {
+      "norad_id": 70021,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:27:00Z",
+      "tca_utc": "2026-10-19T10:33:00Z",
+      "max_elevation_deg": 71,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-021"
+    },
+    {
+      "norad_id": 70022,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:34:00Z",
+      "tca_utc": "2026-10-19T10:40:00Z",
+      "max_elevation_deg": 14,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-022"
+    },
+    {
+      "norad_id": 70023,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:41:00Z",
+      "tca_utc": "2026-10-19T10:47:00Z",
+      "max_elevation_deg": 27,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-023"
+    },
+    {
+      "norad_id": 70024,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:48:00Z",
+      "tca_utc": "2026-10-19T10:54:00Z",
+      "max_elevation_deg": 40,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-024"
+    },
+    {
+      "norad_id": 70025,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:55:00Z",
+      "tca_utc": "2026-10-19T10:01:00Z",
+      "max_elevation_deg": 53,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-025"
+    },
+    {
+      "norad_id": 70026,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:02:00Z",
+      "tca_utc": "2026-10-19T10:08:00Z",
+      "max_elevation_deg": 66,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-026"
+    },
+    {
+      "norad_id": 70027,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:09:00Z",
+      "tca_utc": "2026-10-19T10:15:00Z",
+      "max_elevation_deg": 9,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-027"
+    },
+    {
+      "norad_id": 70028,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:16:00Z",
+      "tca_utc": "2026-10-19T10:22:00Z",
+      "max_elevation_deg": 22,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-028"
+    },
+    {
+      "norad_id": 70029,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:23:00Z",
+      "tca_utc": "2026-10-19T10:29:00Z",
+      "max_elevation_deg": 35,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-029"
+    },
+    {
+      "norad_id": 70030,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:30:00Z",
+      "tca_utc": "2026-10-19T10:36:00Z",
+      "max_elevation_deg": 48,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-030"
+    },
+    {
+      "norad_id": 70031,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:37:00Z",
+      "tca_utc": "2026-10-19T10:43:00Z",
+      "max_elevation_deg": 61,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-031"
+    },
+    {
+      "norad_id": 70032,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:44:00Z",
+      "tca_utc": "2026-10-19T10:50:00Z",
+      "max_elevation_deg": 74,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-032"
+    },
+    {
+      "norad_id": 70033,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:51:00Z",
+      "tca_utc": "2026-10-19T10:57:00Z",
+      "max_elevation_deg": 17,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-033"
+    },
+    {
+      "norad_id": 70034,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:58:00Z",
+      "tca_utc": "2026-10-19T10:04:00Z",
+      "max_elevation_deg": 30,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-034"
+    },
+    {
+      "norad_id": 70035,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:05:00Z",
+      "tca_utc": "2026-10-19T10:11:00Z",
+      "max_elevation_deg": 43,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-035"
+    },
+    {
+      "norad_id": 70036,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:12:00Z",
+      "tca_utc": "2026-10-19T10:18:00Z",
+      "max_elevation_deg": 56,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-036"
+    },
+    {
+      "norad_id": 70037,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:19:00Z",
+      "tca_utc": "2026-10-19T10:25:00Z",
+      "max_elevation_deg": 69,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-037"
+    },
+    {
+      "norad_id": 70038,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:26:00Z",
+      "tca_utc": "2026-10-19T10:32:00Z",
+      "max_elevation_deg": 12,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-038"
+    },
+    {
+      "norad_id": 70039,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:33:00Z",
+      "tca_utc": "2026-10-19T10:39:00Z",
+      "max_elevation_deg": 25,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-039"
+    },
+    {
+      "norad_id": 70040,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:40:00Z",
+      "tca_utc": "2026-10-19T10:46:00Z",
+      "max_elevation_deg": 38,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-040"
+    },
+    {
+      "norad_id": 70041,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:47:00Z",
+      "tca_utc": "2026-10-19T10:53:00Z",
+      "max_elevation_deg": 51,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-041"
+    },
+    {
+      "norad_id": 70042,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:54:00Z",
+      "tca_utc": "2026-10-19T10:00:00Z",
+      "max_elevation_deg": 64,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-042"
+    },
+    {
+      "norad_id": 70043,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:01:00Z",
+      "tca_utc": "2026-10-19T10:07:00Z",
+      "max_elevation_deg": 77,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-043"
+    },
+    {
+      "norad_id": 70044,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:08:00Z",
+      "tca_utc": "2026-10-19T10:14:00Z",
+      "max_elevation_deg": 20,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-044"
+    },
+    {
+      "norad_id": 70045,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:15:00Z",
+      "tca_utc": "2026-10-19T10:21:00Z",
+      "max_elevation_deg": 33,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-045"
+    },
+    {
+      "norad_id": 70046,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:22:00Z",
+      "tca_utc": "2026-10-19T10:28:00Z",
+      "max_elevation_deg": 46,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-046"
+    },
+    {
+      "norad_id": 70047,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:29:00Z",
+      "tca_utc": "2026-10-19T10:35:00Z",
+      "max_elevation_deg": 59,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-047"
+    },
+    {
+      "norad_id": 70048,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:36:00Z",
+      "tca_utc": "2026-10-19T10:42:00Z",
+      "max_elevation_deg": 72,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-048"
+    },
+    {
+      "norad_id": 70049,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:43:00Z",
+      "tca_utc": "2026-10-19T10:49:00Z",
+      "max_elevation_deg": 15,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-049"
+    },
+    {
+      "norad_id": 70050,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:50:00Z",
+      "tca_utc": "2026-10-19T10:56:00Z",
+      "max_elevation_deg": 28,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-050"
+    },
+    {
+      "norad_id": 70051,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:57:00Z",
+      "tca_utc": "2026-10-19T10:03:00Z",
+      "max_elevation_deg": 41,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-051"
+    },
+    {
+      "norad_id": 70052,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:04:00Z",
+      "tca_utc": "2026-10-19T10:10:00Z",
+      "max_elevation_deg": 54,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-052"
+    },
+    {
+      "norad_id": 70053,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:11:00Z",
+      "tca_utc": "2026-10-19T10:17:00Z",
+      "max_elevation_deg": 67,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-053"
+    },
+    {
+      "norad_id": 70054,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:18:00Z",
+      "tca_utc": "2026-10-19T10:24:00Z",
+      "max_elevation_deg": 10,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-054"
+    },
+    {
+      "norad_id": 70055,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T10:25:00Z",
+      "tca_utc": "2026-10-19T10:31:00Z",
+      "max_elevation_deg": 23,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-055"
+    },
+    {
+      "norad_id": 70056,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T10:32:00Z",
+      "tca_utc": "2026-10-19T10:38:00Z",
+      "max_elevation_deg": 36,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-056"
+    },
+    {
+      "norad_id": 70057,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T10:39:00Z",
+      "tca_utc": "2026-10-19T10:45:00Z",
+      "max_elevation_deg": 49,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-057"
+    },
+    {
+      "norad_id": 70058,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T10:46:00Z",
+      "tca_utc": "2026-10-19T10:52:00Z",
+      "max_elevation_deg": 62,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-058"
+    },
+    {
+      "norad_id": 70059,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T10:53:00Z",
+      "tca_utc": "2026-10-19T10:59:00Z",
+      "max_elevation_deg": 75,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-059"
+    },
+    {
+      "norad_id": 70060,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:00:00Z",
+      "tca_utc": "2026-10-19T11:06:00Z",
+      "max_elevation_deg": 18,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-060"
+    },
+    {
+      "norad_id": 70061,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:07:00Z",
+      "tca_utc": "2026-10-19T11:13:00Z",
+      "max_elevation_deg": 31,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-061"
+    },
+    {
+      "norad_id": 70062,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:14:00Z",
+      "tca_utc": "2026-10-19T11:20:00Z",
+      "max_elevation_deg": 44,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-062"
+    },
+    {
+      "norad_id": 70063,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:21:00Z",
+      "tca_utc": "2026-10-19T11:27:00Z",
+      "max_elevation_deg": 57,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-063"
+    },
+    {
+      "norad_id": 70064,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:28:00Z",
+      "tca_utc": "2026-10-19T11:34:00Z",
+      "max_elevation_deg": 70,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-064"
+    },
+    {
+      "norad_id": 70065,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:35:00Z",
+      "tca_utc": "2026-10-19T11:41:00Z",
+      "max_elevation_deg": 13,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-065"
+    },
+    {
+      "norad_id": 70066,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:42:00Z",
+      "tca_utc": "2026-10-19T11:48:00Z",
+      "max_elevation_deg": 26,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-066"
+    },
+    {
+      "norad_id": 70067,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:49:00Z",
+      "tca_utc": "2026-10-19T11:55:00Z",
+      "max_elevation_deg": 39,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-067"
+    },
+    {
+      "norad_id": 70068,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:56:00Z",
+      "tca_utc": "2026-10-19T11:02:00Z",
+      "max_elevation_deg": 52,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-068"
+    },
+    {
+      "norad_id": 70069,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:03:00Z",
+      "tca_utc": "2026-10-19T11:09:00Z",
+      "max_elevation_deg": 65,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-069"
+    },
+    {
+      "norad_id": 70070,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:10:00Z",
+      "tca_utc": "2026-10-19T11:16:00Z",
+      "max_elevation_deg": 8,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-070"
+    },
+    {
+      "norad_id": 70071,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:17:00Z",
+      "tca_utc": "2026-10-19T11:23:00Z",
+      "max_elevation_deg": 21,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-071"
+    },
+    {
+      "norad_id": 70072,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:24:00Z",
+      "tca_utc": "2026-10-19T11:30:00Z",
+      "max_elevation_deg": 34,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-072"
+    },
+    {
+      "norad_id": 70073,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:31:00Z",
+      "tca_utc": "2026-10-19T11:37:00Z",
+      "max_elevation_deg": 47,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-073"
+    },
+    {
+      "norad_id": 70074,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:38:00Z",
+      "tca_utc": "2026-10-19T11:44:00Z",
+      "max_elevation_deg": 60,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-074"
+    },
+    {
+      "norad_id": 70075,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:45:00Z",
+      "tca_utc": "2026-10-19T11:51:00Z",
+      "max_elevation_deg": 73,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-075"
+    },
+    {
+      "norad_id": 70076,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:52:00Z",
+      "tca_utc": "2026-10-19T11:58:00Z",
+      "max_elevation_deg": 16,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-076"
+    },
+    {
+      "norad_id": 70077,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:59:00Z",
+      "tca_utc": "2026-10-19T11:05:00Z",
+      "max_elevation_deg": 29,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-077"
+    },
+    {
+      "norad_id": 70078,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:06:00Z",
+      "tca_utc": "2026-10-19T11:12:00Z",
+      "max_elevation_deg": 42,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-078"
+    },
+    {
+      "norad_id": 70079,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:13:00Z",
+      "tca_utc": "2026-10-19T11:19:00Z",
+      "max_elevation_deg": 55,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-079"
+    },
+    {
+      "norad_id": 70080,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:20:00Z",
+      "tca_utc": "2026-10-19T11:26:00Z",
+      "max_elevation_deg": 68,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-080"
+    },
+    {
+      "norad_id": 70081,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:27:00Z",
+      "tca_utc": "2026-10-19T11:33:00Z",
+      "max_elevation_deg": 11,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-081"
+    },
+    {
+      "norad_id": 70082,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:34:00Z",
+      "tca_utc": "2026-10-19T11:40:00Z",
+      "max_elevation_deg": 24,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-082"
+    },
+    {
+      "norad_id": 70083,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:41:00Z",
+      "tca_utc": "2026-10-19T11:47:00Z",
+      "max_elevation_deg": 37,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-083"
+    },
+    {
+      "norad_id": 70084,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:48:00Z",
+      "tca_utc": "2026-10-19T11:54:00Z",
+      "max_elevation_deg": 50,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-084"
+    },
+    {
+      "norad_id": 70085,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:55:00Z",
+      "tca_utc": "2026-10-19T11:01:00Z",
+      "max_elevation_deg": 63,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-085"
+    },
+    {
+      "norad_id": 70086,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:02:00Z",
+      "tca_utc": "2026-10-19T11:08:00Z",
+      "max_elevation_deg": 76,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-086"
+    },
+    {
+      "norad_id": 70087,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:09:00Z",
+      "tca_utc": "2026-10-19T11:15:00Z",
+      "max_elevation_deg": 19,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-087"
+    },
+    {
+      "norad_id": 70088,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:16:00Z",
+      "tca_utc": "2026-10-19T11:22:00Z",
+      "max_elevation_deg": 32,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-088"
+    },
+    {
+      "norad_id": 70089,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:23:00Z",
+      "tca_utc": "2026-10-19T11:29:00Z",
+      "max_elevation_deg": 45,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-089"
+    },
+    {
+      "norad_id": 70090,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:30:00Z",
+      "tca_utc": "2026-10-19T11:36:00Z",
+      "max_elevation_deg": 58,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-090"
+    },
+    {
+      "norad_id": 70091,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:37:00Z",
+      "tca_utc": "2026-10-19T11:43:00Z",
+      "max_elevation_deg": 71,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-091"
+    },
+    {
+      "norad_id": 70092,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:44:00Z",
+      "tca_utc": "2026-10-19T11:50:00Z",
+      "max_elevation_deg": 14,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-092"
+    },
+    {
+      "norad_id": 70093,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:51:00Z",
+      "tca_utc": "2026-10-19T11:57:00Z",
+      "max_elevation_deg": 27,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-093"
+    },
+    {
+      "norad_id": 70094,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:58:00Z",
+      "tca_utc": "2026-10-19T11:04:00Z",
+      "max_elevation_deg": 40,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-094"
+    },
+    {
+      "norad_id": 70095,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:05:00Z",
+      "tca_utc": "2026-10-19T11:11:00Z",
+      "max_elevation_deg": 53,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-095"
+    },
+    {
+      "norad_id": 70096,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:12:00Z",
+      "tca_utc": "2026-10-19T11:18:00Z",
+      "max_elevation_deg": 66,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-096"
+    },
+    {
+      "norad_id": 70097,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:19:00Z",
+      "tca_utc": "2026-10-19T11:25:00Z",
+      "max_elevation_deg": 9,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-097"
+    },
+    {
+      "norad_id": 70098,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:26:00Z",
+      "tca_utc": "2026-10-19T11:32:00Z",
+      "max_elevation_deg": 22,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-098"
+    },
+    {
+      "norad_id": 70099,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:33:00Z",
+      "tca_utc": "2026-10-19T11:39:00Z",
+      "max_elevation_deg": 35,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-099"
+    },
+    {
+      "norad_id": 70100,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:40:00Z",
+      "tca_utc": "2026-10-19T11:46:00Z",
+      "max_elevation_deg": 48,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-100"
+    },
+    {
+      "norad_id": 70101,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:47:00Z",
+      "tca_utc": "2026-10-19T11:53:00Z",
+      "max_elevation_deg": 61,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-101"
+    },
+    {
+      "norad_id": 70102,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:54:00Z",
+      "tca_utc": "2026-10-19T11:00:00Z",
+      "max_elevation_deg": 74,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-102"
+    },
+    {
+      "norad_id": 70103,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:01:00Z",
+      "tca_utc": "2026-10-19T11:07:00Z",
+      "max_elevation_deg": 17,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-103"
+    },
+    {
+      "norad_id": 70104,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:08:00Z",
+      "tca_utc": "2026-10-19T11:14:00Z",
+      "max_elevation_deg": 30,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-104"
+    },
+    {
+      "norad_id": 70105,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:15:00Z",
+      "tca_utc": "2026-10-19T11:21:00Z",
+      "max_elevation_deg": 43,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-105"
+    },
+    {
+      "norad_id": 70106,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:22:00Z",
+      "tca_utc": "2026-10-19T11:28:00Z",
+      "max_elevation_deg": 56,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-106"
+    },
+    {
+      "norad_id": 70107,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:29:00Z",
+      "tca_utc": "2026-10-19T11:35:00Z",
+      "max_elevation_deg": 69,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-107"
+    },
+    {
+      "norad_id": 70108,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:36:00Z",
+      "tca_utc": "2026-10-19T11:42:00Z",
+      "max_elevation_deg": 12,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-108"
+    },
+    {
+      "norad_id": 70109,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:43:00Z",
+      "tca_utc": "2026-10-19T11:49:00Z",
+      "max_elevation_deg": 25,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-109"
+    },
+    {
+      "norad_id": 70110,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:50:00Z",
+      "tca_utc": "2026-10-19T11:56:00Z",
+      "max_elevation_deg": 38,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-110"
+    },
+    {
+      "norad_id": 70111,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:57:00Z",
+      "tca_utc": "2026-10-19T11:03:00Z",
+      "max_elevation_deg": 51,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-111"
+    },
+    {
+      "norad_id": 70112,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:04:00Z",
+      "tca_utc": "2026-10-19T11:10:00Z",
+      "max_elevation_deg": 64,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-112"
+    },
+    {
+      "norad_id": 70113,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:11:00Z",
+      "tca_utc": "2026-10-19T11:17:00Z",
+      "max_elevation_deg": 77,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-113"
+    },
+    {
+      "norad_id": 70114,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:18:00Z",
+      "tca_utc": "2026-10-19T11:24:00Z",
+      "max_elevation_deg": 20,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-114"
+    },
+    {
+      "norad_id": 70115,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:25:00Z",
+      "tca_utc": "2026-10-19T11:31:00Z",
+      "max_elevation_deg": 33,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-115"
+    },
+    {
+      "norad_id": 70116,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:32:00Z",
+      "tca_utc": "2026-10-19T11:38:00Z",
+      "max_elevation_deg": 46,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-116"
+    },
+    {
+      "norad_id": 70117,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T11:39:00Z",
+      "tca_utc": "2026-10-19T11:45:00Z",
+      "max_elevation_deg": 59,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-117"
+    },
+    {
+      "norad_id": 70118,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T11:46:00Z",
+      "tca_utc": "2026-10-19T11:52:00Z",
+      "max_elevation_deg": 72,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-118"
+    },
+    {
+      "norad_id": 70119,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T11:53:00Z",
+      "tca_utc": "2026-10-19T11:59:00Z",
+      "max_elevation_deg": 15,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-119"
+    },
+    {
+      "norad_id": 70120,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T12:00:00Z",
+      "tca_utc": "2026-10-19T12:06:00Z",
+      "max_elevation_deg": 28,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-120"
+    },
+    {
+      "norad_id": 70121,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T12:07:00Z",
+      "tca_utc": "2026-10-19T12:13:00Z",
+      "max_elevation_deg": 41,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-121"
+    },
+    {
+      "norad_id": 70122,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T12:14:00Z",
+      "tca_utc": "2026-10-19T12:20:00Z",
+      "max_elevation_deg": 54,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-122"
+    },
+    {
+      "norad_id": 70123,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T12:21:00Z",
+      "tca_utc": "2026-10-19T12:27:00Z",
+      "max_elevation_deg": 67,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-123"
+    },
+    {
+      "norad_id": 70124,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T12:28:00Z",
+      "tca_utc": "2026-10-19T12:34:00Z",
+      "max_elevation_deg": 10,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-124"
+    },
+    {
+      "norad_id": 70125,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T12:35:00Z",
+      "tca_utc": "2026-10-19T12:41:00Z",
+      "max_elevation_deg": 23,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-125"
+    },
+    {
+      "norad_id": 70126,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T12:42:00Z",
+      "tca_utc": "2026-10-19T12:48:00Z",
+      "max_elevation_deg": 36,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-126"
+    },
+    {
+      "norad_id": 70127,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T12:49:00Z",
+      "tca_utc": "2026-10-19T12:55:00Z",
+      "max_elevation_deg": 49,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-127"
+    },
+    {
+      "norad_id": 70128,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T12:56:00Z",
+      "tca_utc": "2026-10-19T12:02:00Z",
+      "max_elevation_deg": 62,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-128"
+    },
+    {
+      "norad_id": 70129,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T12:03:00Z",
+      "tca_utc": "2026-10-19T12:09:00Z",
+      "max_elevation_deg": 75,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-129"
+    },
+    {
+      "norad_id": 70130,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T12:10:00Z",
+      "tca_utc": "2026-10-19T12:16:00Z",
+      "max_elevation_deg": 18,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-130"
+    },
+    {
+      "norad_id": 70131,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T12:17:00Z",
+      "tca_utc": "2026-10-19T12:23:00Z",
+      "max_elevation_deg": 31,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-131"
+    },
+    {
+      "norad_id": 70132,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T12:24:00Z",
+      "tca_utc": "2026-10-19T12:30:00Z",
+      "max_elevation_deg": 44,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-132"
+    },
+    {
+      "norad_id": 70133,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T12:31:00Z",
+      "tca_utc": "2026-10-19T12:37:00Z",
+      "max_elevation_deg": 57,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-133"
+    },
+    {
+      "norad_id": 70134,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T12:38:00Z",
+      "tca_utc": "2026-10-19T12:44:00Z",
+      "max_elevation_deg": 70,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-134"
+    },
+    {
+      "norad_id": 70135,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T12:45:00Z",
+      "tca_utc": "2026-10-19T12:51:00Z",
+      "max_elevation_deg": 13,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-135"
+    },
+    {
+      "norad_id": 70136,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T12:52:00Z",
+      "tca_utc": "2026-10-19T12:58:00Z",
+      "max_elevation_deg": 26,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-136"
+    },
+    {
+      "norad_id": 70137,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T12:59:00Z",
+      "tca_utc": "2026-10-19T12:05:00Z",
+      "max_elevation_deg": 39,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-137"
+    },
+    {
+      "norad_id": 70138,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T12:06:00Z",
+      "tca_utc": "2026-10-19T12:12:00Z",
+      "max_elevation_deg": 52,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-138"
+    },
+    {
+      "norad_id": 70139,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T12:13:00Z",
+      "tca_utc": "2026-10-19T12:19:00Z",
+      "max_elevation_deg": 65,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-139"
+    },
+    {
+      "norad_id": 70140,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T12:20:00Z",
+      "tca_utc": "2026-10-19T12:26:00Z",
+      "max_elevation_deg": 8,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-140"
+    },
+    {
+      "norad_id": 70141,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T12:27:00Z",
+      "tca_utc": "2026-10-19T12:33:00Z",
+      "max_elevation_deg": 21,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-141"
+    },
+    {
+      "norad_id": 70142,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T12:34:00Z",
+      "tca_utc": "2026-10-19T12:40:00Z",
+      "max_elevation_deg": 34,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-142"
+    },
+    {
+      "norad_id": 70143,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T12:41:00Z",
+      "tca_utc": "2026-10-19T12:47:00Z",
+      "max_elevation_deg": 47,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-143"
+    },
+    {
+      "norad_id": 70144,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T12:48:00Z",
+      "tca_utc": "2026-10-19T12:54:00Z",
+      "max_elevation_deg": 60,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-144"
+    },
+    {
+      "norad_id": 70145,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T12:55:00Z",
+      "tca_utc": "2026-10-19T12:01:00Z",
+      "max_elevation_deg": 73,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-145"
+    },
+    {
+      "norad_id": 70146,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T12:02:00Z",
+      "tca_utc": "2026-10-19T12:08:00Z",
+      "max_elevation_deg": 16,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-146"
+    },
+    {
+      "norad_id": 70147,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T12:09:00Z",
+      "tca_utc": "2026-10-19T12:15:00Z",
+      "max_elevation_deg": 29,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-147"
+    },
+    {
+      "norad_id": 70148,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T12:16:00Z",
+      "tca_utc": "2026-10-19T12:22:00Z",
+      "max_elevation_deg": 42,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-148"
+    },
+    {
+      "norad_id": 70149,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T12:23:00Z",
+      "tca_utc": "2026-10-19T12:29:00Z",
+      "max_elevation_deg": 55,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-149"
+    },
+    {
+      "norad_id": 70150,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T12:30:00Z",
+      "tca_utc": "2026-10-19T12:36:00Z",
+      "max_elevation_deg": 68,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-150"
+    },
+    {
+      "norad_id": 70151,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T12:37:00Z",
+      "tca_utc": "2026-10-19T12:43:00Z",
+      "max_elevation_deg": 11,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-151"
+    },
+    {
+      "norad_id": 70152,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T12:44:00Z",
+      "tca_utc": "2026-10-19T12:50:00Z",
+      "max_elevation_deg": 24,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-152"
+    },
+    {
+      "norad_id": 70153,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T12:51:00Z",
+      "tca_utc": "2026-10-19T12:57:00Z",
+      "max_elevation_deg": 37,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-153"
+    },
+    {
+      "norad_id": 70154,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T12:58:00Z",
+      "tca_utc": "2026-10-19T12:04:00Z",
+      "max_elevation_deg": 50,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-154"
+    },
+    {
+      "norad_id": 70155,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T12:05:00Z",
+      "tca_utc": "2026-10-19T12:11:00Z",
+      "max_elevation_deg": 63,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-155"
+    },
+    {
+      "norad_id": 70156,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T12:12:00Z",
+      "tca_utc": "2026-10-19T12:18:00Z",
+      "max_elevation_deg": 76,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-156"
+    },
+    {
+      "norad_id": 70157,
+      "station_id": "SOUTH-03",
+      "aos_utc": "2026-10-19T12:19:00Z",
+      "tca_utc": "2026-10-19T12:25:00Z",
+      "max_elevation_deg": 19,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-157"
+    },
+    {
+      "norad_id": 70158,
+      "station_id": "WEST-04",
+      "aos_utc": "2026-10-19T12:26:00Z",
+      "tca_utc": "2026-10-19T12:32:00Z",
+      "max_elevation_deg": 32,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-158"
+    },
+    {
+      "norad_id": 70159,
+      "station_id": "ISLAND-05",
+      "aos_utc": "2026-10-19T12:33:00Z",
+      "tca_utc": "2026-10-19T12:39:00Z",
+      "max_elevation_deg": 45,
+      "tle_epoch_utc": "2026-10-18T00:00:00Z",
+      "synthetic_pass_id": "PASS-159"
+    },
+    {
+      "norad_id": 77124,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:53:00Z",
+      "tca_utc": "2026-10-19T12:00:00Z",
+      "max_elevation_deg": 42.5,
+      "tle_epoch_utc": "2026-10-19T00:00:00Z",
+      "synthetic_pass_id": "PASS-X7"
+    },
+    {
+      "norad_id": 77125,
+      "station_id": "EAST-02",
+      "aos_utc": "2026-10-19T11:52:00Z",
+      "tca_utc": "2026-10-19T12:00:00Z",
+      "max_elevation_deg": 41.0,
+      "tle_epoch_utc": "2026-10-19T00:00:00Z",
+      "synthetic_pass_id": "PASS-X8"
+    },
+    {
+      "norad_id": 77126,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:54:00Z",
+      "tca_utc": "2026-10-19T12:00:00Z",
+      "max_elevation_deg": 12.0,
+      "tle_epoch_utc": "2026-10-19T00:00:00Z",
+      "synthetic_pass_id": "PASS-X9"
+    },
+    {
+      "norad_id": 77127,
+      "station_id": "NORTH-01",
+      "aos_utc": "2026-10-19T11:51:00Z",
+      "tca_utc": "2026-10-19T12:00:00Z",
+      "max_elevation_deg": 55.0,
+      "tle_epoch_utc": "2026-10-17T00:00:00Z",
+      "synthetic_pass_id": "PASS-X10"
+    }
+  ],
+  "case_reference": {
+    "account_id": "ACCT-ORBIT-204",
+    "memo_id": "MEMO-ZEPHYR-17"
+  }
+}
